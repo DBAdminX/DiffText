@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Old Text Input -->
+    <EditText
+        android:id="@+id/etOldText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Original Text"
+        android:minHeight="48dp" />
+
+    <!-- New Text Input -->
+    <EditText
+        android:id="@+id/etNewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modified Text"
+        android:minHeight="48dp" />
+
+    <!-- Compare Button -->
+    <Button
+        android:id="@+id/btnCompare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compare"/>
+
+    <!-- Diff Results -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDiff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

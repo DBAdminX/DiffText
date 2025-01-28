@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 左侧文档 -->
+    <path
+        android:fillColor="#FFFFFF"
+    android:pathData="M18,18v72h36v-72h-36z M22,22v64h28v-64h-28z" />
+
+    <!-- 右侧文档 -->
+    <path
+        android:fillColor="#FFFFFF"
+    android:pathData="M54,18v72h36v-72h-36z M58,22v64h28v-64h-28z" />
+
+    <!-- 差异标记（高亮部分） -->
+    <path
+        android:fillColor="#FFEB3B"
+    android:pathData="M40,54h28v12h-28z" />
+
+    <!-- 文档叠加效果 -->
+    <path
+        android:fillColor="#E0E0E0"
+    android:pathData="M54,18v72h36v-72h-36z M58,22v64h28v-64h-28z"
+    android:translateX="4"
+    android:translateY="4" />
+</vector>
